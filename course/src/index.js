@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const App = () => {
+
+
 
   const course = {
 
@@ -29,6 +30,7 @@ const App = () => {
       <Header course = {course.name} />
       <Content parts = {course.parts} />
       <Total total = {course.parts}/>
+    
     </div>
   )
 }
